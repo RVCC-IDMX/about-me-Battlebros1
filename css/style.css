@@ -3,6 +3,7 @@ body {
     background-color: #39fac4;
     color: #000000;
     font-weight: bold;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,9 +27,13 @@ header{
     padding: 10px;
 }
 
+/* Hero Section */
+
 #hero img {
     width:200px;
 }
+
+/* Bio Section */
 
 #bio {
     font-weight: bolder;
@@ -37,7 +42,28 @@ header{
 
 }
 
+/* Honnies Section */
+
+#hobbies ul {
+    list-style: none;
+}
+
 #hobbies ul li:hover {
+    list-style: none;
     color: rgb(255, 0, 191);
     font-style: italic;
+}
+
+/* Gallary Section */
+
+#gallery {
+    border: 2px solid #5c8fe0;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure{
+    text-align: center;
 }

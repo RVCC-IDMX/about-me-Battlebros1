@@ -126,6 +126,18 @@ header{
     
 }
 
+@media screen and (max-width: 60em) {
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+    }
+    
+}
+
 /* Tablet screen size */
 
 @media screen and (min-width: 60em) {

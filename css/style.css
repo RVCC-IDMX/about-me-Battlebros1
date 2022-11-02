@@ -3,7 +3,7 @@ body {
     background-color: #CAF564;
     color: #000000;
     font-weight: bold;
-    text-align: center;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,6 +46,7 @@ header{
 
 #hobbies ul {
     list-style: none;
+    text-align: center;
 }
 
 #hobbies ul li:hover {
@@ -76,6 +77,7 @@ header{
 #video {
     border: 2px solid #5c8fe0;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 /* Literature Section */
@@ -185,4 +187,10 @@ header{
         display: block;
     }
 
+}
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
 }

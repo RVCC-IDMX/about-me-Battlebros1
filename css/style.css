@@ -73,19 +73,17 @@ header{
     text-align: center;
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
+/* Image hover effect*/
 .container {
     position: relative;
     width: 100%;
   }
   
-  /* Make the image to responsive */
   .image {
     width: 100%;
     height: auto;
   }
   
-  /* The overlay effect (full height and width) - lays on top of the container and over the image */
   .overlay {
     position: absolute;
     bottom: 0;
@@ -99,12 +97,10 @@ header{
     transition: .3s ease;
   }
   
-  /* When you mouse over the container, the overlay text will "zoom" in display */
   .container:hover .overlay {
     transform: scale(1);
   }
   
-  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
   .text {
     color: black;
     font-size: 20px;
@@ -123,7 +119,7 @@ header{
     text-align: center;
 }
 
-/* Literature Section */
+/* Blog Section */
 
 #lit {
     border: 2px solid #5c8fe0;
@@ -152,6 +148,8 @@ header{
     border-top-left-radius: .2em;
     border-bottom-right-radius: .2em;
 }
+
+/* Different screen sizes */
 
 @media screen and (max-width: 40em) {
     iframe {
